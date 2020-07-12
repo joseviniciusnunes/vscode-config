@@ -1,0 +1,50 @@
+{
+	"Print to console": {
+		"scope": "javascript,typescript",
+		"prefix": "log",
+		"body": [
+			"console.log('$1');",
+			"$2"
+		],
+		"description": "Criar log"
+	},
+	"Criar view React Native": {
+		"scope": "javascript,typescript",
+		"prefix": "view.style",
+		"body": [
+			"<View style={styles.view$1}>",
+			"$2",
+			"</View>"
+		],
+		"description": "View React Native"
+	},
+	"Toque view React Native": {
+		"scope": "javascript,typescript",
+		"prefix": "toque.style",
+		"body": [
+			"<TouchableOpacity style={styles.op$1} onPress={() => {}}>",
+			"$2",
+			"</TouchableOpacity>"
+		],
+		"description": "View React Native"
+	},
+	"Texto view React Native": {
+		"scope": "javascript,typescript",
+		"prefix": "texto.style",
+		"body": [
+			"<Text style={styles.text$1}>$2</Text>",
+		],
+		"description": "View React Native"
+	},
+	"Alinhar": {
+		"scope": "javascript,typescript",
+		"prefix": "alinhar.react-native",
+		"body": [
+			"flexDirection: '$1',",
+			"justifyContent: 'center',",
+			"alignItems: 'center',",
+			"$2"
+		],
+		"description": "View React Native"
+	}
+}
