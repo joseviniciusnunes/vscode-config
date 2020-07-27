@@ -5,6 +5,9 @@
     "editor.fontLigatures": true,
     "workbench.colorTheme": "Dracula",
     "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
     "prettier.tabWidth": 4,
     "[javascript]": {
         "editor.defaultFormatter": "vscode.typescript-language-features"
@@ -19,4 +22,17 @@
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "editor.fontSize": 12,
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "[yaml]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "editor.snippetSuggestions": "top",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -javaagent:\"c:\\Users\\Jose Vinicius\\.vscode\\extensions\\gabrielbb.vscode-lombok-1.0.1\\server\\lombok.jar\"",
+    "java.semanticHighlighting.enabled": true,
+    "java.refactor.renameFromFileExplorer": "autoApply",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "window.zoomLevel": 0
 }
